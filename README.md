@@ -23,14 +23,9 @@ Things you may want to cover:
 
 * ...
 
-rails g model Task title:string detail:text
 
-completed:boolean
-
-title, as a string
-details, as a text
-completed, as a boolean
-
-(default: false)
-
-add_column :task, :completed, :boolean, default: false
+As a user, I can list tasks
+As a user, I can view the details of a task
+As a user, I can add a new task
+As a user, I can edit a task (mark as completed / update title & details)
+As a user, I can remove a task
