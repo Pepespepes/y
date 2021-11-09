@@ -22,3 +22,15 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+rails g model Task title:string detail:text
+
+completed:boolean
+
+title, as a string
+details, as a text
+completed, as a boolean
+
+(default: false)
+
+add_column :task, :completed, :boolean, default: false
